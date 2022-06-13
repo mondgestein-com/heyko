@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.logo>svg {
+    fill: hsl(var(--a));
+}
+
+footer>.logo,
+#drawer .logo {
+    fill: hsl(var(--pc));
+}
+
+.steps {
+    width: 100%;
+}
+
+.steps .step {
+    font-size: 0.7rem;
+}
+
+.rdp-months {
+    align-items: center;
+    justify-content: center;
+}
+
+svg {
+    display: initial;
+}
+
+.logo>svg {
+    fill: hsl(var(--a));
+}
+
+:root {
+    --rdp-cell-size: 50px !important;
+    --rdp-accent-color: hsl(var(--a)) !important;
+    --rdp-background-color: hsl(var(--a)) !important;
+    /* Switch to dark colors for dark themes */
+    --rdp-accent-color-dark: hsl(var(--ac));
+    --rdp-background-color-dark: hsl(var(--ac));
+    /* Outline border for focused elements */
+    --rdp-outline: 2px solid var(--rdp-accent-color);
+    /* Outline border for focused and selected elements */
+    --rdp-outline-selected: 2px solid rgba(0, 0, 0, 0.75);
+}
+
+.background {
+}

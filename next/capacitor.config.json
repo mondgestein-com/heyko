@@ -1,0 +1,6 @@
+{
+  "appId": "com.mondgestein.heygency.heyko",
+  "appName": "HEYKO",
+  "webDir": "out",
+  "bundledWebRuntime": false
+}
