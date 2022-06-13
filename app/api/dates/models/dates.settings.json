@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "dates",
+  "info": {
+    "name": "Dates"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "uid": {
+      "type": "uid"
+    },
+    "start": {
+      "type": "datetime"
+    },
+    "end": {
+      "type": "datetime"
+    },
+    "heygent": {
+      "type": "string"
+    },
+    "infos": {
+      "type": "json"
+    },
+    "status": {
+      "type": "string"
+    }
+  }
+}

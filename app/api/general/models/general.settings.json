@@ -1,0 +1,40 @@
+{
+  "kind": "singleType",
+  "collectionName": "generals",
+  "info": {
+    "name": "General",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "open": {
+      "type": "time"
+    },
+    "close": {
+      "type": "time"
+    },
+    "siesta_start": {
+      "type": "time"
+    },
+    "siesta_end": {
+      "type": "time"
+    },
+    "size": {
+      "type": "integer"
+    },
+    "datenschutz": {
+      "model": "pages"
+    },
+    "agb": {
+      "model": "pages"
+    },
+    "impressum": {
+      "model": "pages"
+    }
+  }
+}
